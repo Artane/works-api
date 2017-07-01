@@ -1,0 +1,23 @@
+{
+	"Unknown": {
+		"name": "UnknownError",
+		"message": "There was an unknown error :(). Pls try again later."
+	},
+	"NotFound": {
+		"name": "NotFoundError",
+		"message": "Sorry, couldn't find that object in the database."
+	},
+	"InvalidObject": {
+		"name": "InvalidObjectError",
+		"message": "There were some incorrect fields in the submitted object. Please fix them and resubmit.",
+		"details": null
+	},
+	"EmptyObject": {
+		"name": "EmptyObjectError",
+		"message": "Please submit an object with some fields."
+	},
+	"Connection": {
+		"name": "ConnectionError",
+		"message": "There was an error connecting to the database! Sorry bout that :()"
+	}
+}

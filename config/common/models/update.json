@@ -1,0 +1,11 @@
+{
+	"title": "string",
+	"image": "string",
+	"width": "number",
+	"height": "number",
+	"genre": "string",
+	"type": "string",
+	"info": "string",
+	"price": "number",
+	"display": "number"
+}

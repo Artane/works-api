@@ -1,0 +1,22 @@
+{
+  "name": "works",
+  "version": "0.0.1",
+  "description": "Works Service",
+  "main": "source/server.js",
+  "scripts": {
+    "start": "NODE_ENV=prod node source/server.js",
+		"mini-start": "NODE_ENV=mini-prod node source/server.js",
+    "dev": "NODE_ENV=dev nodemon source/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "mysql": "2.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
